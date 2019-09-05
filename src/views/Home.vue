@@ -209,16 +209,8 @@ export default {
 
 <style lang="scss">
 
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+@import "../assets/style/common.css";
 
-ul,ol{list-style-type:none;} 
-select,input,img,select{vertical-align:middle;} 
- 
-a{text-decoration:none; color: #333;} 
-
-
-body{ background: #f7f5f6;}
-.part{ background: #fff; margin-bottom:px2rem(15)   }
 .noskin{ background:none;}
 
 .top{position: relative; border-bottom: px2rem(0.5) solid #f3f3f3; padding:0 px2rem(10) px2rem(10);text-align: left;}
